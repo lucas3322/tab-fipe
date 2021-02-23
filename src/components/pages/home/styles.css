@@ -1,0 +1,82 @@
+section {
+    margin-top: -15;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(#9E9E9E, #363738);
+    height: 300px;
+    position: inherit;
+}
+
+.col-12.text-center.mt-5 {
+    display: inline-grid;
+    /* justify-content: center; */
+}
+
+h3.titulo-principal {
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+}
+
+h4.sub-titulo-principal {
+    padding-bottom: 60px;
+    font-size: 1.4rem;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+}
+
+h4.sub-titulo-principal a {
+    text-decoration: none;
+    color: #272727;
+}
+
+.bg-form.d-flex.align-items-center {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+}
+
+
+/*select*/
+
+select#tipoVeiculo {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+select#tipoVeiculo:hover {
+    transform: scale(1.05);
+}
+
+select#marcaVeiculo {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+select#modeloVeiculo {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+select#anoVeiculo {
+    padding-left: 11px;
+    color: #fff;
+    background: #ac1212;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.row.text-center.justify-content-center.mt-2.fase-1.flex-wrap {
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
