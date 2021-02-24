@@ -1,4 +1,5 @@
 import './style.css';
+import Logo from '../../dist/logo.png';
 
 export function NavBar(){
 
@@ -8,7 +9,9 @@ export function NavBar(){
                 <div className="Container">
                     <div className="collapse navbar-collapse">
                         <div className="icon-logo">
-                            
+                            <a href="#">
+                                <img src={Logo} alt="inicio"/>
+                            </a>
                         </div>
 
                         <ul className="navbar-nav m1-auto">
