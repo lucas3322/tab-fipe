@@ -1,5 +1,10 @@
+.wrapper,
+body {
+    overflow-x: hidden;
+}
+
 section {
-    margin-top: -15;
+    padding-top: 5rem;
     display: flex;
     text-align: center;
     color: #fff;
@@ -10,11 +15,10 @@ section {
 
 .col-12.text-center.mt-5 {
     display: inline-grid;
-    /* justify-content: center; */
 }
 
 h3.titulo-principal {
-    height: 80px;
+    height: 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
 }
@@ -79,4 +83,75 @@ select#anoVeiculo {
     display: flex;
     justify-content: space-between;
     width: 900px;
+}
+
+.br-marcas {
+    padding: 20px 0;
+    background-image: linear-gradient(#fff, #FFCAB9);
+}
+
+.container {
+    max-width: 100%;
+    display: block;
+    padding: 20px 8rem;
+    justify-content: center;
+}
+
+.titulo-p-marcas {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+h3.titledrop.mb-0.pt-2 {
+    color: #000;
+}
+
+.logo-marcas {
+    justify-content: space-between;
+    display: flex;
+    transition: transform .2s;
+}
+
+.logo-marcas:hover {
+    transform: scale(1.1);
+}
+
+.col-md-2 {
+    transition: transform .2s;
+}
+
+.col-md-2:hover {
+    filter: brightness(1.5);
+    transform: scale(1.3);
+}
+
+.boton-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: inherit;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 a {
+    text-align: center;
+    background: rgb(83, 4, 73);
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-secundary {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding-top: 10px;
 }
